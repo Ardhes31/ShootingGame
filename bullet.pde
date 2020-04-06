@@ -12,13 +12,14 @@ class Bullet{
     move = false;
   }
   void display(){
-    rectMode(CENTER);
-    circle(mouseX,height-100,20);            //NEFUNGUJE..JE STALE X,Y
+    if(move){
+      circle(bulletX,bulletY,20);    
+    } else circle(mouseX,height-100,20);
   }
   void move(){
     if(move){
-    bulletX +=speedX;
-    bulletY +=speedY;
+      //bulletX +=speedX;
+      bulletY -=speedY;
     }
   }
 

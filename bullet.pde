@@ -4,13 +4,15 @@ class Bullet{
   float speedX;                        //rychlost bulletu
   float speedY;                        //
   boolean move;
+  
   Bullet(){
-    bulletX = width/2;
+    bulletX = mouseX;
     bulletY = height-100;
     speedX = 5;
     speedY = 5;
     move = false;
   }
+  
   void display(){
     if(move){
       circle(bulletX,bulletY,20);    

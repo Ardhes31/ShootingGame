@@ -1,7 +1,7 @@
 # SHOOTING GAME
 
 ## PRŮBĚH VYTVÁŘENÍ:
-![vytvoření nepřátel](/pictures/pic_1.png)
+<img src="pictures/pic_1.png" width="320" height="320">
 	 
 ## TO DO:
  ###  1. opakovat výstřely ✓

@@ -1,14 +1,14 @@
 class Bullet{
   float bulletX;                       //x-ová souřadnice bulletu
   float bulletY;                       //y-ová souřadnice bulletu
-  float speedX;                        //rychlost bulletu
+  //float speedX;                        //rychlost bulletu
   float speedY;                        //
   boolean move;
   
   Bullet(){
     bulletX = mouseX;
     bulletY = height-100;
-    speedX = 5;
+    //speedX = 5;
     speedY = 5;
     move = false;
   }
